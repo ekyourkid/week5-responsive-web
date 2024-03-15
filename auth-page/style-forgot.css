@@ -80,7 +80,7 @@ input:hover {
     height: 64px;
 }
 
-.button-regist:active {
+.button-regist:hover {
     background-color: #696f79;
 }
 
@@ -89,25 +89,7 @@ input:hover {
     font-size: 13px;
     color: #efc81a;
     border: none;
-    background: transparent;
 }
-.button-login:active {
-    color: #696f79;
-}
-
-.forgot-sect {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    width: 31vh;
-}
-
-.forgot-button {
-    color: #efc81a;
-    font-weight: 500;
-    border: none;
-    background: transparent;
-}
-.forgot-button:active {
+.button:active {
     color: #696f79;
 }

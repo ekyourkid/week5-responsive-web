@@ -97,9 +97,10 @@ input:hover {
 
 .forgot-sect {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    width: 31vh;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 75px;
+    width: fit-content;
 }
 
 .forgot-button {
