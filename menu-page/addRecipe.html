@@ -16,9 +16,19 @@
         <main class="main">
             <nav class="navbar">
                 <div class="nav-left">
-                    <span class="register-nav">Home</span>
-                    <span class="login-nav">Add Recipe</span>
-                    <span class="search-menu-nav">Profile</span>
+                    <a
+                        style="text-decoration: none"
+                        href="./searchMenu.html"
+                        class="register-nav"
+                        >Home</a
+                    >
+                    <a href="./addRecipe.html" class="login-nav">Add Recipe</a>
+                    <a
+                        style="text-decoration: none"
+                        href="#"
+                        class="search-menu-nav"
+                        >Search Menu</a
+                    >
                 </div>
                 <div class="nav-rigth">
                     <span class="nav-photo">
@@ -104,9 +114,16 @@
                         <option value="3">Vegetarian</option>
                         <option value="4">Popular</option>
                     </select>
-                    <div style="display: flex; justify-content: center">
+                    <a
+                        href="../profile/detailProfile.html"
+                        style="
+                            display: flex;
+                            justify-content: center;
+                            text-decoration: none;
+                        "
+                    >
                         <button class="button-post">Post</button>
-                    </div>
+                    </a>
                 </section>
             </div>
         </main>

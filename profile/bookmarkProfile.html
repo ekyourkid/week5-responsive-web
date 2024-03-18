@@ -10,20 +10,28 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style-detail-menu.css" />
+        <link rel="stylesheet" href="style-bookmark.css" />
     </head>
     <body>
         <main class="main">
             <nav class="navbar">
                 <div class="nav-left">
-                    <a href="./searchMenu.html" class="register-nav">Home</a>
                     <a
+                        href="../menu-page/searchMenu.html"
                         style="text-decoration: none"
-                        href="./addRecipe.html"
+                        class="register-nav"
+                        >Home</a
+                    >
+                    <a
+                        href="../menu-page/addRecipe.html"
+                        style="text-decoration: none"
                         class="login-nav"
                         >Add Recipe</a
                     >
-                    <a style="text-decoration: none" class="search-menu-nav"
+                    <a
+                        href="#"
+                        style="text-decoration: none"
+                        class="search-menu-nav"
                         >Search Menu</a
                     >
                 </div>
@@ -116,254 +124,176 @@
                         >
                             21 February 2023
                         </h1>
-                        <h1
-                            style="
-                                font-weight: 500;
-                                font-size: 24px;
-                                line-height: 62px;
-                                color: #000000;
-                                text-align: right;
-                                margin-top: -30px;
-                            "
-                        >
-                            20 Likes - 2 Comments
-                        </h1>
                     </div>
                 </section>
                 <aside class="aside">
-                    <h1
-                        style="
-                            font-weight: 500;
-                            font-size: 72px;
-                            line-height: 90px;
-                            color: #2e266f;
-                        "
-                    >
-                        Egg Sandwich
-                    </h1>
-                    <img
-                        style="
-                            border-radius: 15px;
-                            color: #c4c4c4;
-                            margin-top: 60px;
-                        "
-                        src="../asset/egg.png"
-                        width="1082px"
-                        height="700px"
-                        alt="egg"
-                    />
+                    <nav class="nav">
+                        <a
+                            class="nav-link"
+                            aria-current="page"
+                            href="../profile/detailProfile.html"
+                            >Recipes
+                        </a>
+                        <a
+                            style="color: #3f3a3a"
+                            class="nav-link"
+                            href="../profile/bookmarkProfile.html"
+                            >Bookmarked</a
+                        >
+                        <a class="nav-link" href="#">Liked</a>
+                    </nav>
+                    <div class="card-aside">
+                        <a
+                            href="../menu-page/detailMenu.html"
+                            style="text-decoration: none"
+                        >
+                            <img
+                                src="../asset/pempek.png"
+                                width="500px"
+                                height="500px"
+                                alt="pempek-photo"
+                            />
+                        </a>
+                        <div class="">
+                            <span class="aside-text">
+                                <h1
+                                    style="
+                                        font-weight: 500;
+                                        font-size: 32px;
+                                        line-height: 48px;
+                                        width: 132px;
+                                        height: 96px;
+                                    "
+                                >
+                                    Bomb Chicken
+                                </h1>
+                                <p
+                                    style="
+                                        width: 245px;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 36px;
+                                        color: #3f3a3a;
+                                        padding-top: 10px;
+                                    "
+                                >
+                                    Ingredients: chicken, dumpling wrap, garlic,
+                                    spring onion, soy sauce, black sesame seed
+                                </p>
+                            </span>
+                            <h1
+                                style="
+                                    background-color: #efc81a;
+                                    width: 325px;
+                                    height: 42px;
+                                    border-radius: 6px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: white;
+                                "
+                            >
+                                10 Likes - 12 Comment - 3 Bookmark
+                            </h1>
+                            <span
+                                style="
+                                    width: 310px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-top: 50px;
+                                "
+                            >
+                                <button class="btn-card-delete">
+                                    Delete From Bookmark
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-aside">
+                        <div class="">
+                            <img
+                                src="../asset/pempek.png"
+                                width="500px"
+                                height="500px"
+                                alt="pempek-photo"
+                            />
+                        </div>
+                        <div class="">
+                            <span class="aside-text">
+                                <h1
+                                    style="
+                                        font-weight: 500;
+                                        font-size: 32px;
+                                        line-height: 48px;
+                                        width: 132px;
+                                        height: 96px;
+                                    "
+                                >
+                                    Bomb Chicken
+                                </h1>
+                                <p
+                                    style="
+                                        width: 245px;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 36px;
+                                        color: #3f3a3a;
+                                        padding-top: 10px;
+                                    "
+                                >
+                                    Ingredients: chicken, dumpling wrap, garlic,
+                                    spring onion, soy sauce, black sesame seed
+                                </p>
+                            </span>
+                            <h1
+                                style="
+                                    background-color: #efc81a;
+                                    width: 325px;
+                                    height: 42px;
+                                    border-radius: 6px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: white;
+                                "
+                            >
+                                10 Likes - 12 Comment - 3 Bookmark
+                            </h1>
+                            <span
+                                style="
+                                    width: 310px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-top: 50px;
+                                "
+                            >
+                                <button class="btn-card-delete">
+                                    Delete From Bookmark
+                                </button>
+                            </span>
+                        </div>
+                    </div>
                 </aside>
                 <article class="article">
+                    <button class="btn-article">Prev</button>
                     <h1
                         style="
+                            width: 297px;
+                            height: 62px;
                             font-weight: 500;
-                            font-size: 48px;
+                            font-size: 32px;
                             line-height: 62px;
                             color: #3f3a3a;
-                            margin-left: 27px;
                         "
                     >
-                        Ingredients
+                        Show 6-10 from 10
                     </h1>
-                    <ul
-                        style="
-                            list-style-type: none;
-                            font-size: 36px;
-                            line-height: 54px;
-                            color: #000000;
-                        "
-                    >
-                        <li>- 2 eggs</li>
-                        <li>- 2 tbsp mayonnaise</li>
-                        <li>- 3 slices bread</li>
-                        <li>- a little butter</li>
-                        <li>- ⅓ carton of cress</li>
-                        <li>
-                            - 2-3 slices of tomato or a lettuce leaf and a slice
-                            of ham or cheese
-                        </li>
-                        <li>- crisps , to serve</li>
-                    </ul>
-                </article>
-                <article class="article2">
-                    <div>
-                        <button
-                            style="
-                                background-color: #efc81a;
-                                border-radius: 16px;
-                                border: none;
-                                outline: none;
-                                width: 52px;
-                                height: 52px;
-                            "
-                        >
-                            <img
-                                src="../asset/bookmark.png"
-                                width="34.67px"
-                                height="34.67px"
-                                alt="bookmark"
-                            />
-                        </button>
-                        <button
-                            style="
-                                background-color: white;
-                                border-radius: 16px;
-                                border: none;
-                                outline: none;
-                                width: 52px;
-                                height: 52px;
-                                outline: 1px solid #efc81a;
-                                margin-left: 12px;
-                            "
-                        >
-                            <img
-                                src="../asset/like.png"
-                                width="34.67px"
-                                height="34.67px"
-                                alt="like-icon"
-                            />
-                        </button>
-                    </div>
-                    <div class="comment-section">
-                        <div style="display: flex">
-                            <span
-                                style="
-                                    width: 25vh;
-                                    height: 97px;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: space-around;
-                                    border-right: 5px solid #efc81a;
-                                "
-                            >
-                                <img
-                                    src="../asset/user.png"
-                                    width="64px"
-                                    height="64px"
-                                    alt="user-comment"
-                                />
-
-                                <span
-                                    style="
-                                        height: fit-content;
-                                        padding-right: 20px;
-                                    "
-                                >
-                                    <h1
-                                        style="
-                                            font-weight: 500;
-                                            font-size: 24px;
-                                            line-height: 62px;
-                                        "
-                                    >
-                                        Karen
-                                    </h1>
-                                    <h1
-                                        style="
-                                            font-weight: 900;
-                                            font-size: 24px;
-                                            line-height: 62px;
-                                            margin-top: -40px;
-                                        "
-                                    >
-                                        20 Recipes
-                                    </h1>
-                                </span>
-                            </span>
-                            <h1
-                                style="
-                                    width: fit-content;
-                                    font-weight: 500;
-                                    font-size: 24px;
-                                    line-height: 62px;
-                                    display: flex;
-                                    align-items: center;
-                                    margin-left: 30px;
-                                "
-                            >
-                                Wow, I just made this and it was delicious!
-                                Thanks for sharing!
-                            </h1>
-                        </div>
-                        <div style="display: flex">
-                            <span
-                                style="
-                                    width: 25vh;
-                                    height: 97px;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: space-around;
-                                    border-right: 5px solid #efc81a;
-                                "
-                            >
-                                <img
-                                    src="../asset/user.png"
-                                    width="64px"
-                                    height="64px"
-                                    alt="user-comment"
-                                />
-
-                                <span
-                                    style="
-                                        height: fit-content;
-                                        padding-right: 20px;
-                                    "
-                                >
-                                    <h1
-                                        style="
-                                            font-weight: 500;
-                                            font-size: 24px;
-                                            line-height: 62px;
-                                        "
-                                    >
-                                        Karen
-                                    </h1>
-                                    <h1
-                                        style="
-                                            font-weight: 900;
-                                            font-size: 24px;
-                                            line-height: 62px;
-                                            margin-top: -40px;
-                                        "
-                                    >
-                                        20 Recipes
-                                    </h1>
-                                </span>
-                            </span>
-                            <h1
-                                style="
-                                    width: fit-content;
-                                    font-weight: 500;
-                                    font-size: 24px;
-                                    line-height: 62px;
-                                    display: flex;
-                                    align-items: center;
-                                    margin-left: 30px;
-                                "
-                            >
-                                Wow, I just made this and it was delicious!
-                                Thanks for sharing!
-                            </h1>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <textarea
-                                style="
-                                    width: 813px;
-                                    height: 252px;
-                                    margin-top: 10vh;
-                                    padding-left: 35px;
-                                    padding-top: 30px;
-                                "
-                                class="form-control"
-                                id="exampleFormControlTextarea1"
-                                rows="3"
-                                placeholder="Your comment here!"
-                            ></textarea>
-                        </div>
-                        <button class="button-comment">Send a comment</button>
-                    </div>
                 </article>
             </div>
         </main>
@@ -455,6 +385,7 @@
                     style="width: 72vh; display: flex; justify-content: center"
                 >
                     <img
+                        style="margin-top: 6px; margin-right: 2px"
                         src="../asset/c-logo.png"
                         width="15px"
                         height="12px"

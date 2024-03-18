@@ -10,25 +10,16 @@ body {
     width: 99vw;
     height: 100vh;
 }
-.line1 {
-    background-color: #efc81a;
-    width: 66.93px;
-    height: 1210px;
-    position: absolute;
-    z-index: 1;
-    right: 1px;
-    top: 55vh;
-}
-.line2 {
-    background-color: #efc81a;
-    width: 66.93px;
-    height: 1210px;
-    position: absolute;
-    z-index: 1;
-    right: 1px;
-    top: 210vh;
+li {
+    font-weight: 400;
 }
 
+.main-div {
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-top: 70px;
+}
 .main {
     margin-top: 20px;
     margin-left: 70px;
@@ -85,113 +76,90 @@ body {
 }
 
 .section {
-    width: 50%;
-    margin-left: 10px;
-}
-
-.section-heroText {
-    width: 597px;
-    margin-bottom: 30px;
-}
-
-.section-search {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 97vh;
-}
-
-.form-control {
-    width: 670px;
-    height: 90px;
-    border-radius: 10px;
-    padding-left: 30px;
-    font-size: 16px;
-    color: #2e266f;
-}
-
-.button-search-section {
-    width: 255px;
-    height: 90px;
-    font-size: 32px;
-    font-weight: 500;
-    color: #ffffff;
-    background-color: #efc81a;
-    border-radius: 15px;
-    border: none;
-}
-
-.section-button {
-    margin-top: 20px;
-    width: 70vh;
-    display: flex;
-    justify-content: space-between;
-}
-
-.category-new {
-    width: 106px;
-    height: 42px;
-    border-radius: 6px;
-    background-color: #efc81a;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    border: none;
-}
-
-.category-popular {
-    width: 167px;
-    height: 42px;
-    border-radius: 6px;
-    background-color: #efc81a;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    border: none;
-}
-.category-veget {
-    width: 167px;
-    height: 42px;
-    border-radius: 6px;
-    background-color: #00e092;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    border: none;
-}
-.category-break {
-    width: 167px;
-    height: 42px;
-    border-radius: 6px;
-    background-color: #00e092;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    border: none;
 }
 
 .aside {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 12px solid #efc81a;
+}
+
+.nav-link {
+    font-size: 48px;
+    font-weight: 500;
+    color: #b6b6b6;
+}
+
+.nav-link:hover {
+    color: #3f3a3a;
+}
+
+.nav-link:focus {
+    color: #3f3a3a;
+}
+
+.card-aside {
     width: 877px;
     height: 500px;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 10px;
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
-    color: #3f3a3a;
 }
-.aside-text-container {
-    margin: 20px;
-    margin-top: 40px;
+
+.btn-card-delete {
+    margin-left: 20px;
+    width: 228px;
+    height: 42px;
+    background: #f57e71;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-card-delete:hover,
+.btn-card-delete:focus {
+    background: #933025;
 }
 
 .article {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 160px;
+}
+
+.btn-article {
+    width: 105px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: #efc81a;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    margin-right: 40px;
+    color: #ffffff;
+}
+
+.btn-article:hover,
+.btn-card-delete:focus {
+    background-color: #d7b314;
 }
 
 .footer {
@@ -214,4 +182,24 @@ body {
     display: flex;
     justify-content: end;
     width: 100%;
+}
+
+.button-comment {
+    width: 426px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: #ffb167;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    border: none;
+}
+
+.button-comment:hover {
+    background-color: #f37600;
+}
+.button-comment:focus {
+    background-color: #f37600;
 }

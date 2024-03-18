@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    width: 99vw;
+    height: 100vh;
+}
+li {
+    font-weight: 400;
+}
+
+.main {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+}
+.register-nav {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2e266f;
+}
+.login-nav {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2e266f;
+}
+.search-menu-nav {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2e266f;
+}
+
+.nav-rigth {
+    width: 210px;
+    height: 97px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid #efc81a;
+}
+
+.btn-nav-logout {
+    display: flex;
+    justify-content: start;
+    background: transparent;
+    margin-top: -35px;
+    width: 87px;
+    height: 62px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 62px;
+    border: none;
+}
+
+.btn-nav-logout:hover,
+.btn-nav-logout:focus {
+    color: red;
+}
+
+.nav-photo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+}
+
+.label-edit-profile {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2e266f;
+    margin-top: 10px;
+}
+
+.btn-update-profile {
+    background-color: #efc81a;
+    border: none;
+    border-radius: 6px;
+    width: 426px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.btn-update-profile:hover,
+.btn-update-profile:focus {
+    background-color: #cfac0f;
+}
+
+.form-control {
+    width: 426px;
+    height: 64px;
+    padding-left: 20px;
+}
+.forgot-sect {
+    margin-top: 20px;
+    width: 426px;
+}
+
+.forgot-button {
+    color: #efc81a;
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.forgot-button:hover,
+.forgot-button:focus {
+    color: #ba9b0e;
+}
+
+.popUp-container {
+    width: 683px;
+    height: 448px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popUp-container h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #efc81a;
+}
+
+.popUp-container button {
+    width: 426px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
