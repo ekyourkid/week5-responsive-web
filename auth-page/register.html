@@ -133,16 +133,15 @@
                     I agree to terms & conditions
                 </label>
             </div>
-            <a
-                href="./login.html"
+            <div
                 style="
                     display: flex;
                     justify-content: center;
                     text-decoration: none;
                 "
             >
-                <button class="button-regist">Register Account</button>
-            </a>
+                <a href="#modal" class="button-regist">Register Account</a>
+            </div>
             <div
                 style="
                     display: flex;
@@ -160,6 +159,19 @@
                         Log in Here
                     </a>
                 </h1>
+            </div>
+        </div>
+        <div class="popup" id="modal">
+            <div class="popup__content">
+                <h1>Account has been set up</h1>
+                <p>Account activated successfully, please login</p>
+                <a href="../auth-page/login.html" class="btn-popUp">Ok</a>
+                <a
+                    style="width: fit-content; background: transparent"
+                    href="#"
+                    class="closePopUp"
+                    >&times;</a
+                >
             </div>
         </div>
     </body>

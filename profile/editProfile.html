@@ -16,9 +16,24 @@
         <main class="main">
             <nav class="navbar">
                 <div class="nav-left">
-                    <span class="register-nav">Home</span>
-                    <span class="login-nav">Add Recipe</span>
-                    <span class="search-menu-nav">Search Menu</span>
+                    <a
+                        href="../menu-page/searchMenu.html"
+                        style="text-decoration: none"
+                        class="register-nav"
+                        >Home</a
+                    >
+                    <a
+                        href="../menu-page/addRecipe.html"
+                        style="text-decoration: none"
+                        class="login-nav"
+                        >Add Recipe</a
+                    >
+                    <a
+                        href="#"
+                        style="text-decoration: none"
+                        class="search-menu-nav"
+                        >Search Menu</a
+                    >
                 </div>
                 <div class="nav-rigth">
                     <span class="nav-photo">
@@ -39,7 +54,12 @@
                         >
                             Ayudia
                         </h1>
-                        <button class="btn-nav-logout">Logout</button>
+                        <a
+                            style="text-decoration: none; color: black"
+                            href="#modal"
+                            class="btn-nav-logout"
+                            >Logout</a
+                        >
                     </span>
                 </div>
             </nav>
@@ -109,7 +129,9 @@
                             placeholder="Ayudia@gmail.com"
                         />
                     </div>
-                    <button class="btn-update-profile">Update Profile</button>
+                    <a href="./editProfile.html" class="btn-update-profile"
+                        >Update Profile</a
+                    >
                     <span class="forgot-sect">
                         <h1
                             style="
@@ -129,21 +151,24 @@
                 </div>
             </section>
             <!-- POP UP -->
-            <!-- <div class="popUp-container">
-                <h1>You want to logout?</h1>
-                <button style="background-color: #efc81a; margin-top: 50px">
-                    Yes
-                </button>
-                <button
-                    style="
-                        background-color: #e7e7e7;
-                        border: 2px solid #000000;
-                        margin-top: 30px;
-                    "
-                >
-                    Cancel
-                </button>
-            </div> -->
+            <div class="popup" id="modal">
+                <div class="popup__content">
+                    <h1>You want to logout?</h1>
+                    <a href="../auth-page/login.html" class="btn-popUp">Ok</a>
+                    <a
+                        style="
+                            width: 426px;
+                            height: 64px;
+                            background: #e7e7e7;
+                            color: #ffffff;
+                            margin-top: 20px;
+                        "
+                        href="#"
+                        class="closePopUp"
+                        >cancel;</a
+                    >
+                </div>
+            </div>
         </main>
     </body>
 </html>
